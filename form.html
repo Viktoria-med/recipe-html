@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Опитування</title>
+</head>
+<body>
+    <header>
+        <h1>Опитування</h1>
+        <nav>
+            <a href="index.html">Рецепт</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h2> Хочеш більше смачних рецептів? Заповни форму:</h2>
+        </section>
+        <form action="https://formspree.io/xeqkkbkw" method="POST">
+            <label>
+                Ім'я:
+                <input type="text" name="і'мя" placeholder="Ім'я" required>
+            </label>
+            <label>
+                Електрона пошта
+                <input type="text" name="електрона пошта" placeholder="Електрона пошта" required>
+            </label>
+        </form>
+        <section>
+        <h3>Ось тут опитування! Вдячні тобі за відповідь!</h3>
+        </section>
+        <form>
+            <label>Ти любиш панкейки?</label>
+            <br>
+            <label>
+                <input type="radio" name="Ти любиш панкейки?" value="ТАК!">ТАК!
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Ти любиш панкейки?" value="Якщо вони политі шоколадом :)">Якщо вони политі шоколадом :)
+            </label>    
+        </form>
+        <form>
+            <label>Ти спробував приготувати панкейки за нашим рецептом?</label>
+            <br>
+            <label>
+                <input type="radio" name="Ти спробував приготувати панкейки за нашим рецептом?" value="Так">Так
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Ти спробував приготувати панкейки за нашим рецептом?" value="Ні, посмажив яйця і все">Ні, посмажив яйця і все
+            </label>
+        </form>
+        <form>
+            <label>В тебе все вийшло?</label>
+            <br>
+            <label>
+                <input type="radio" name="В тебе все вийшло?" value="Так, дуже смачно!">Так, дуже смачно!
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="В тебе все вийшло?" value="Краще б я приготував панкейки.">Краще б я приготував панкейки
+            </label>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </main>
+</body>
+</html>
